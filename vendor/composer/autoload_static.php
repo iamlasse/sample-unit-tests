@@ -8,10 +8,49 @@ class ComposerStaticInitf3cc85e377271d1615a9b590258e5351
 {
     public static $files = array (
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
+        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        'ba366f96f4fddbdef61ad7a862b44f61' => __DIR__ . '/..' . '/wp-cli/package-command/package-command.php',
+        '3937806105cc8e221b8fa8db5b70d2f2' => __DIR__ . '/..' . '/wp-cli/mustangostang-spyc/includes/functions.php',
+        'be01b9b16925dcb22165c40b46681ac6' => __DIR__ . '/..' . '/wp-cli/php-cli-tools/lib/cli/cli.php',
+        '8a0ad02df6a5087f2c380f8fd52db273' => __DIR__ . '/..' . '/wp-cli/cache-command/cache-command.php',
+        'f3f0199a3ecd9f501d0a3b361bd2f61c' => __DIR__ . '/..' . '/wp-cli/entity-command/entity-command.php',
+        '3f201033d5aceb2293314273be88f7c6' => __DIR__ . '/..' . '/wp-cli/extension-command/extension-command.php',
+        'c65f753375faee349b7adc48c2ee7cc2' => __DIR__ . '/..' . '/wp-cli/db-command/db-command.php',
+        '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
+        'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
+        'd979c11fe80ba96ae3037b43429fe546' => __DIR__ . '/..' . '/wp-cli/scaffold-command/scaffold-command.php',
+        '5c6ec5cff8f9d625772c8ed147f6b894' => __DIR__ . '/..' . '/wp-cli/export-command/export-command.php',
+        'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
+        'b66d29757fcb2fb7a9608d068e3716b0' => __DIR__ . '/..' . '/wp-cli/checksum-command/checksum-command.php',
+        '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
+        '72579e7bd17821bb1321b87411366eae' => __DIR__ . '/..' . '/illuminate/support/helpers.php',
+        '30cbb6e4122dc988e494c6b9c0438233' => __DIR__ . '/..' . '/wp-cli/import-command/import-command.php',
+        '5e099d3cac677dd2bec1003ea7707745' => __DIR__ . '/..' . '/wp-cli/media-command/media-command.php',
+        'ac949ce40a981819ba132473518a9a31' => __DIR__ . '/..' . '/wp-cli/wp-config-transformer/src/WPConfigTransformer.php',
+        '5deaf6ce9c8bbdfb65104c7e938d5875' => __DIR__ . '/..' . '/wp-cli/config-command/config-command.php',
+        '68c39b88215b6cf7a0da164166670ef9' => __DIR__ . '/..' . '/wp-cli/core-command/core-command.php',
+        '7654e00bf0e632580764400bd8293a9c' => __DIR__ . '/..' . '/wp-cli/cron-command/cron-command.php',
+        '021d3a13471556f0b57038d679f7f8ea' => __DIR__ . '/..' . '/wp-cli/embed-command/embed-command.php',
+        'f958dca3f412fd7975da1700912a9321' => __DIR__ . '/..' . '/wp-cli/eval-command/eval-command.php',
+        'ffb465a494c3101218c4417180c2c9a2' => __DIR__ . '/..' . '/wp-cli/i18n-command/i18n-command.php',
+        'ace0d205db7f4135ec32132a0076d555' => __DIR__ . '/..' . '/wp-cli/language-command/language-command.php',
+        '1c88c1eff05217a8cac80c64c9ac2080' => __DIR__ . '/..' . '/wp-cli/maintenance-mode-command/maintenance-mode-command.php',
+        'f399c1c8d0c787d5c94c09884cdd9762' => __DIR__ . '/..' . '/wp-cli/rewrite-command/rewrite-command.php',
+        '080fadd667195d055c5a23386f270261' => __DIR__ . '/..' . '/wp-cli/role-command/role-command.php',
+        '8ecb13f8bbc22b1b34d12b14ec01077a' => __DIR__ . '/..' . '/wp-cli/search-replace-command/search-replace-command.php',
+        '9f04dd0aa5d67ec75a75c88c345a079e' => __DIR__ . '/..' . '/wp-cli/server-command/server-command.php',
+        '129d58fa8151374aceb8571bcaa97504' => __DIR__ . '/..' . '/wp-cli/shell-command/shell-command.php',
+        '8519779bbb65eeb842af2f629ce7b6f8' => __DIR__ . '/..' . '/wp-cli/super-admin-command/super-admin-command.php',
+        '1f05372afcc7d0c51a305cef1d56dd01' => __DIR__ . '/..' . '/wp-cli/widget-command/widget-command.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
+        'e2b8090921f5e293ca4eb0c107749811' => __DIR__ . '/..' . '/lucatume/wp-browser/src/tad/WPBrowser/functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
+        't' => 
+        array (
+            'tad\\' => 4,
+        ),
         'p' => 
         array (
             'phpDocumentor\\Reflection\\' => 25,
@@ -19,19 +58,92 @@ class ComposerStaticInitf3cc85e377271d1615a9b590258e5351
         'W' => 
         array (
             'Webmozart\\Assert\\' => 17,
+            'WP_CLI\\MaintenanceMode\\' => 23,
+            'WP_CLI\\I18n\\' => 12,
+            'WP_CLI\\Embeds\\' => 14,
+            'WP_CLI\\' => 7,
         ),
         'S' => 
         array (
+            'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Polyfill\\Ctype\\' => 23,
+            'Symfony\\Contracts\\' => 18,
+            'Symfony\\Component\\Yaml\\' => 23,
+            'Symfony\\Component\\Translation\\' => 30,
+            'Symfony\\Component\\Process\\' => 26,
+            'Symfony\\Component\\Finder\\' => 25,
+            'Symfony\\Component\\Filesystem\\' => 29,
+            'Symfony\\Component\\EventDispatcher\\' => 34,
+            'Symfony\\Component\\DomCrawler\\' => 29,
+            'Symfony\\Component\\CssSelector\\' => 30,
+            'Symfony\\Component\\Console\\' => 26,
+            'Symfony\\Component\\BrowserKit\\' => 29,
+            'Seld\\PharUtils\\' => 15,
+            'Seld\\JsonLint\\' => 14,
+        ),
+        'P' => 
+        array (
+            'Psr\\SimpleCache\\' => 16,
+            'Psr\\Log\\' => 8,
+            'Psr\\Http\\Message\\' => 17,
+            'Psr\\Container\\' => 14,
+            'Peast\\test\\' => 11,
+            'Peast\\' => 6,
+        ),
+        'M' => 
+        array (
+            'Mustangostang\\' => 14,
+            'MikeMcLin\\WpPassword\\' => 21,
+        ),
+        'J' => 
+        array (
+            'JsonSchema\\' => 11,
+        ),
+        'I' => 
+        array (
+            'Illuminate\\Support\\' => 19,
+            'Illuminate\\Contracts\\' => 21,
+        ),
+        'G' => 
+        array (
+            'GuzzleHttp\\Psr7\\' => 16,
+            'GuzzleHttp\\Promise\\' => 19,
+            'GuzzleHttp\\' => 11,
+            'Gumlet\\' => 7,
+            'Gettext\\Languages\\' => 18,
+            'Gettext\\' => 8,
+        ),
+        'F' => 
+        array (
+            'Facebook\\WebDriver\\' => 19,
         ),
         'D' => 
         array (
+            'Dotenv\\' => 7,
             'Doctrine\\Instantiator\\' => 22,
+            'Doctrine\\Common\\Inflector\\' => 26,
             'DeepCopy\\' => 9,
+        ),
+        'C' => 
+        array (
+            'Composer\\XdebugHandler\\' => 23,
+            'Composer\\Spdx\\' => 14,
+            'Composer\\Semver\\' => 16,
+            'Composer\\CaBundle\\' => 18,
+            'Composer\\' => 9,
+            'Codeception\\PHPUnit\\' => 20,
+            'Codeception\\Extension\\' => 22,
+            'Codeception\\' => 12,
+            'Carbon\\' => 7,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'tad\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/lucatume/wp-browser/src/tad',
+            1 => __DIR__ . '/..' . '/lucatume/wp-browser-commons/src/tad',
+        ),
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
@@ -42,31 +154,310 @@ class ComposerStaticInitf3cc85e377271d1615a9b590258e5351
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
         ),
+        'WP_CLI\\MaintenanceMode\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/wp-cli/maintenance-mode-command/src',
+        ),
+        'WP_CLI\\I18n\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/wp-cli/i18n-command/src',
+        ),
+        'WP_CLI\\Embeds\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/wp-cli/embed-command/src',
+        ),
+        'WP_CLI\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/wp-cli/entity-command/src/WP_CLI',
+            1 => __DIR__ . '/..' . '/wp-cli/shell-command/src/WP_CLI',
+        ),
+        'Symfony\\Polyfill\\Mbstring\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
+        ),
         'Symfony\\Polyfill\\Ctype\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
+        ),
+        'Symfony\\Contracts\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/contracts',
+        ),
+        'Symfony\\Component\\Yaml\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/yaml',
+        ),
+        'Symfony\\Component\\Translation\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/translation',
+        ),
+        'Symfony\\Component\\Process\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/process',
+        ),
+        'Symfony\\Component\\Finder\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/finder',
+        ),
+        'Symfony\\Component\\Filesystem\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/filesystem',
+        ),
+        'Symfony\\Component\\EventDispatcher\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/event-dispatcher',
+        ),
+        'Symfony\\Component\\DomCrawler\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/dom-crawler',
+        ),
+        'Symfony\\Component\\CssSelector\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/css-selector',
+        ),
+        'Symfony\\Component\\Console\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/console',
+        ),
+        'Symfony\\Component\\BrowserKit\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/browser-kit',
+        ),
+        'Seld\\PharUtils\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/seld/phar-utils/src',
+        ),
+        'Seld\\JsonLint\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/seld/jsonlint/src/Seld/JsonLint',
+        ),
+        'Psr\\SimpleCache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/simple-cache/src',
+        ),
+        'Psr\\Log\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+        ),
+        'Psr\\Http\\Message\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/http-message/src',
+        ),
+        'Psr\\Container\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/container/src',
+        ),
+        'Peast\\test\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/mck89/peast/test/Peast',
+        ),
+        'Peast\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/mck89/peast/lib/Peast',
+        ),
+        'Mustangostang\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/wp-cli/mustangostang-spyc/src',
+        ),
+        'MikeMcLin\\WpPassword\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/mikemclin/laravel-wp-password/src',
+        ),
+        'JsonSchema\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/justinrainbow/json-schema/src/JsonSchema',
+        ),
+        'Illuminate\\Support\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/illuminate/support',
+        ),
+        'Illuminate\\Contracts\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/illuminate/contracts',
+        ),
+        'GuzzleHttp\\Psr7\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
+        ),
+        'GuzzleHttp\\Promise\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/promises/src',
+        ),
+        'GuzzleHttp\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
+        ),
+        'Gumlet\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/gumlet/php-image-resize/lib',
+        ),
+        'Gettext\\Languages\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/gettext/languages/src',
+        ),
+        'Gettext\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/gettext/gettext/src',
+        ),
+        'Facebook\\WebDriver\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/facebook/webdriver/lib',
+        ),
+        'Dotenv\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/vlucas/phpdotenv/src',
         ),
         'Doctrine\\Instantiator\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator',
         ),
+        'Doctrine\\Common\\Inflector\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/inflector/lib/Doctrine/Common/Inflector',
+        ),
         'DeepCopy\\' => 
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
         ),
+        'Composer\\XdebugHandler\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/composer/xdebug-handler/src',
+        ),
+        'Composer\\Spdx\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/composer/spdx-licenses/src',
+        ),
+        'Composer\\Semver\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/composer/semver/src',
+        ),
+        'Composer\\CaBundle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/composer/ca-bundle/src',
+        ),
+        'Composer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/composer/composer/src/Composer',
+        ),
+        'Codeception\\PHPUnit\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/codeception/phpunit-wrapper/src',
+        ),
+        'Codeception\\Extension\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/codeception/codeception/ext',
+        ),
+        'Codeception\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/codeception/codeception/src/Codeception',
+            1 => __DIR__ . '/..' . '/codeception/stub/src',
+            2 => __DIR__ . '/..' . '/lucatume/wp-browser/src/Codeception',
+        ),
+        'Carbon\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon',
+        ),
+    );
+
+    public static $fallbackDirsPsr4 = array (
+        0 => __DIR__ . '/..' . '/wp-cli/cache-command/src',
+        1 => __DIR__ . '/..' . '/wp-cli/checksum-command/src',
+        2 => __DIR__ . '/..' . '/wp-cli/config-command/src',
+        3 => __DIR__ . '/..' . '/wp-cli/core-command/src',
+        4 => __DIR__ . '/..' . '/wp-cli/cron-command/src',
+        5 => __DIR__ . '/..' . '/wp-cli/db-command/src',
+        6 => __DIR__ . '/..' . '/wp-cli/entity-command/src',
+        7 => __DIR__ . '/..' . '/wp-cli/eval-command/src',
+        8 => __DIR__ . '/..' . '/wp-cli/export-command/src',
+        9 => __DIR__ . '/..' . '/wp-cli/extension-command/src',
+        10 => __DIR__ . '/..' . '/wp-cli/import-command/src',
+        11 => __DIR__ . '/..' . '/wp-cli/language-command/src',
+        12 => __DIR__ . '/..' . '/wp-cli/media-command/src',
+        13 => __DIR__ . '/..' . '/wp-cli/package-command/src',
+        14 => __DIR__ . '/..' . '/wp-cli/rewrite-command/src',
+        15 => __DIR__ . '/..' . '/wp-cli/role-command/src',
+        16 => __DIR__ . '/..' . '/wp-cli/scaffold-command/src',
+        17 => __DIR__ . '/..' . '/wp-cli/search-replace-command/src',
+        18 => __DIR__ . '/..' . '/wp-cli/server-command/src',
+        19 => __DIR__ . '/..' . '/wp-cli/shell-command/src',
+        20 => __DIR__ . '/..' . '/wp-cli/super-admin-command/src',
+        21 => __DIR__ . '/..' . '/wp-cli/widget-command/src',
     );
 
     public static $prefixesPsr0 = array (
+        'c' => 
+        array (
+            'cli' => 
+            array (
+                0 => __DIR__ . '/..' . '/wp-cli/php-cli-tools/lib',
+            ),
+        ),
+        'W' => 
+        array (
+            'WP_CLI' => 
+            array (
+                0 => __DIR__ . '/..' . '/wp-cli/wp-cli/php',
+            ),
+        ),
+        'R' => 
+        array (
+            'Requests' => 
+            array (
+                0 => __DIR__ . '/..' . '/rmccue/requests/library',
+            ),
+        ),
         'P' => 
         array (
             'Prophecy\\' => 
             array (
                 0 => __DIR__ . '/..' . '/phpspec/prophecy/src',
             ),
+            'PhpOption\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/phpoption/phpoption/src',
+            ),
+        ),
+        'O' => 
+        array (
+            'Oxymel' => 
+            array (
+                0 => __DIR__ . '/..' . '/nb/oxymel',
+            ),
+        ),
+        'M' => 
+        array (
+            'Mustache' => 
+            array (
+                0 => __DIR__ . '/..' . '/mustache/mustache/src',
+            ),
+        ),
+        'H' => 
+        array (
+            'Hautelook' => 
+            array (
+                0 => __DIR__ . '/..' . '/hautelook/phpass/src',
+            ),
+            'Handlebars' => 
+            array (
+                0 => __DIR__ . '/..' . '/xamin/handlebars.php/src',
+            ),
+        ),
+        'B' => 
+        array (
+            'Behat\\Gherkin' => 
+            array (
+                0 => __DIR__ . '/..' . '/behat/gherkin/src',
+            ),
+            'BaconStringUtils' => 
+            array (
+                0 => __DIR__ . '/..' . '/bacon/bacon-string-utils/src',
+            ),
         ),
     );
 
     public static $classMap = array (
+        'MySQLDump' => __DIR__ . '/..' . '/dg/mysql-dump/src/MySQLDump.php',
+        'MySQLImport' => __DIR__ . '/..' . '/dg/mysql-dump/src/MySQLImport.php',
         'PHPUnit\\Exception' => __DIR__ . '/..' . '/phpunit/phpunit/src/Exception.php',
         'PHPUnit\\Framework\\Assert' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert.php',
         'PHPUnit\\Framework\\AssertionFailedError' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/AssertionFailedError.php',
@@ -617,6 +1008,7 @@ class ComposerStaticInitf3cc85e377271d1615a9b590258e5351
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInitf3cc85e377271d1615a9b590258e5351::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInitf3cc85e377271d1615a9b590258e5351::$prefixDirsPsr4;
+            $loader->fallbackDirsPsr4 = ComposerStaticInitf3cc85e377271d1615a9b590258e5351::$fallbackDirsPsr4;
             $loader->prefixesPsr0 = ComposerStaticInitf3cc85e377271d1615a9b590258e5351::$prefixesPsr0;
             $loader->classMap = ComposerStaticInitf3cc85e377271d1615a9b590258e5351::$classMap;
 

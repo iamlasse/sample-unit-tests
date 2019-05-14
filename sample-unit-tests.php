@@ -30,12 +30,12 @@ final class WP_Sample_Unit
 
   public function google_site_verification($verification_string)
   {
-    return sprintf('<meta name="google-site-verification" content="%s">', $verification_string);
+    echo sprintf('<meta name="google-site-verification" content="%s">', $verification_string);
   }
 
   public function bing_site_verification($verification_string)
   {
-    return sprintf('<meta name="msvalidate.01" content="%s">', $verification_string);
+    echo sprintf('<meta name="msvalidate.01" content="%s">', $verification_string);
   }
 }
 new WP_Sample_Unit();
